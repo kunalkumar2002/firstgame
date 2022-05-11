@@ -1,0 +1,38 @@
+.head{
+    text-align: center;
+}
+h1{
+    font-family:sans-serif ;
+    display: inline-block;
+    margin-left: 50px;
+}
+.reset{
+    display: inline-block;
+    vertical-align: auto;
+    margin-left: 10%;
+}
+
+.player{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    background-color: gray;
+    opacity: 0.4;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 4px 4px 3px 4px black;
+    font-size:xx-large;
+}
+
+.btn{
+    align-self: flex-end;
+    background-color: gray;
+    height: 30px;
+    border-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 2px 2px 3px 2px black;
+    font-weight: bolder;
+}
